@@ -1,0 +1,18 @@
+{
+  "appId": "com.poc.capacitor",
+  "appName": "MyCapacitorRef",
+  "bundledWebRuntime": true,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "server": {
+    "cleartext": true,
+    "hostname": "localhost"
+  }
+}
